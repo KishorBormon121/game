@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="background"></canvas>
+    <div class="container">
+        <h1 class="neon-title">NEON TAC TOE</h1>
+        <div class="game-container">
+            <div class="status" id="status">Player X's Turn</div>
+            <div class="board" id="board"></div>
+            <div class="controls">
+                <button class="neon-button" onclick="resetGame()">New Game</button>
+                <button class="neon-button" onclick="toggleMode()" id="modeBtn">vs Computer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
